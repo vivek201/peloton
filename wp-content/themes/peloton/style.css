@@ -1,0 +1,217 @@
+/*
+Theme Name: Peloton Responsive
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: A responsive theme using bootstrap for peloton
+Version: 1.0
+*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.cbp-spmenu {
+    width: 100%;
+    top: 0;
+}
+
+.res-menu-block {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.res-menu-block .menu-header {
+    background-color: #3a88b0;
+    color: white;
+    cursor: pointer;
+}
+
+.res-menu-block .menu-header .close-icon {
+    background: url('assets/img/sprite.png') -18px -105px;
+}
+
+.res-menu-block ul {
+    list-style: none;
+}
+
+.res-menu-block ul li {
+    padding: 10px;
+    margin-right: 40px;
+    border-bottom: 1px solid black;
+    transition-property: background-color, color;
+    transition-duration: 0.6s;
+}
+
+.res-menu-block ul li a {
+    color: black;
+    display: block;
+}
+
+.res-menu-block ul li:hover a {
+    color: white;
+}
+
+.res-menu-block ul li:hover {
+    background-color: #4197c4;
+}
+
+.right-side-nav {
+    left: 100%;
+    transition-property: left;
+    transition-duration: 0.4s;
+}
+
+.right-side-nav-show {
+    left: 0;
+}
+
+#showRightPush {
+    z-index: 0;
+}
+
+.nav > .current-menu-item > a,
+.navbar-nav > .current-menu-item > a {
+    color: #b5ac7d;
+}
+
+@media (min-width: 767px) {
+    .custom-head-banner {
+        background-color: #283643;
+        min-height: 450px;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-head-banner {
+        background-color: #283643;
+        min-height: 20em;
+    }
+    
+    
+    .office {
+        column-count: 1;
+		-webkit-column-count: 1;
+		-moz-column-count: 1
+    }
+}
+
+.fullBlock img {
+    /*min-height: 400px;*/
+    height: auto;
+}
+
+section.aboutDetail * {
+    font-family: heuristica;
+}
+
+section.aboutDetail p {
+    font-size: 18px;
+}
+
+.office {
+	column-count: 2;
+	-webkit-column-count: 2;
+	-moz-column-count: 2
+}
+
+.coTrans .imgContainer {
+    height: 100px;
+}
+
+.corporateTrans {
+    padding-bottom: 0px;
+}
+/*
+.imgParent {
+    position: relative;
+    overflow: hidden;
+}
+
+.imgParent img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}*/
+
+#team {
+    background-color: #FFF;
+}
+#team span {
+    display: block;
+}
+#team .member {
+    max-height: 520px;
+    min-height: 520px;
+    border-right: 1px solid #E5E5E5;
+    padding: 73px 0px 0px;
+    overflow: hidden;
+}
+@media (max-width: 500px) {
+    #team .member {
+        max-height: 400px;
+        min-height: 400px;
+    }
+}
+#team .memName {
+    color: #282F3C;
+    font-weight: 700;
+    font-size: 24px;
+}
+#team .memPos {
+    font-family: heuristica;
+    font-size: 18px;
+    color: #49505D;
+    clear: both;
+    display: block;
+    font-weight: 300;
+    margin-top: 14px;
+}
+#team > div {
+    text-align: center;
+}
+#team .memImageContainer {
+    position: absolute; 
+    left: 0; 
+    width: 100%; 
+    bottom: 0;
+}
+.nav-tabs>li a:before {
+    background: none;
+}
+
+.serviceTabs .nav-tabs img {
+    display: block;
+    margin: 0 auto;
+}
+
+.serviceTabs ul.nav.nav-tabs li a {
+    text-align: center;
+    padding: 0;
+}
+
+#header .dark {
+    display: none;
+}
+
+.smaller .light {
+    display: none;
+}
+
+#header.smaller .dark {
+    display: block;
+}
+
+.forBorder > .row > div {
+    border-left: 1px solid #dbdbdb;
+}
+
+.forBorder > .row > div:first-of-type {
+    border-left: none;
+}

@@ -1,0 +1,9 @@
+.my-postbox > h3 {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
+
+.my-postbox {
+    padding-left:  10px;
+}
